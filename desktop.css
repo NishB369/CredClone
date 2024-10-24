@@ -218,3 +218,121 @@ body {
   width: 80%;
   /* border: 1px solid red; */
 }
+
+#section {
+  height: 130%;
+  width: 100%;
+  background-color: black;
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  flex-direction: column;
+  padding: 2.5% 0;
+  margin-top: 5%;
+}
+
+#content_div5 {
+  font-family: denton_black;
+  color: white;
+  font-size: 90px;
+  line-height: 110%;
+  margin-left: 7%;
+  margin-bottom: 1%;
+}
+
+#carousels_section {
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  overflow-y: hidden;
+  overflow-x: auto;
+  /* border: 1px solid red; */
+}
+
+#carousels_section::-webkit-scrollbar {
+  display: none;
+}
+
+#carousels_container {
+  width: 180%;
+  height: 110%;
+  border: 1px solid black;
+  margin-left: 2.5%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.carousel_card {
+  height: 80%;
+  width: 15%;
+  background-position: right 0px bottom 0px;
+  background-size: 100% 120%;
+  background-repeat: no-repeat;
+  border: 1px solid rgba(255, 255, 255, 0.306);
+  border-radius: 1px;
+  display: flex;
+  align-items: start;
+  justify-content: start;
+  flex-direction: column;
+  padding: 2% 2%;
+  gap: 7.5%;
+}
+
+#carousel_card01 {
+  background-image: url(https://web-images.credcdn.in/v2/_next/assets/images/landing/desktop/scan-n-pay.png);
+}
+
+#carousel_card02 {
+  background-image: url(https://web-images.credcdn.in/v2/_next/assets/images/landing/desktop/cc-on-upi.png);
+}
+
+#carousel_card03 {
+  background-image: url(https://web-images.credcdn.in/v2/_next/assets/images/landing/desktop/tap-n-pay.png);
+}
+
+#carousel_card04 {
+  background-image: url(https://web-images.credcdn.in/v2/_next/assets/images/landing/desktop/p2p.png);
+}
+
+#carousel_card05 {
+  background-image: url(https://web-images.credcdn.in/v2/_next/assets/images/landing/desktop/garage.png);
+}
+
+#carousel_card06 {
+  background-image: url(https://web-images.credcdn.in/v2/_next/assets/images/landing/desktop/escapes.png);
+}
+
+.carousel_card_header {
+  height: 6%;
+}
+
+.carousel_card_heading {
+  color: white;
+  font-family: gilroy_bold;
+  font-size: 35px;
+  line-height: 110%;
+}
+
+.carousel_card_btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid rgba(255, 255, 255, 0.58);
+  backdrop-filter: blur(1.5px);
+  background-color: rgba(0, 0, 0, 0.269);
+  border-radius: 1px;
+  height: 15%;
+  font-size: 7px;
+  text-transform: uppercase;
+  color: white;
+  font-family: gilroy_bold;
+  padding: 1% 9%;
+  letter-spacing: 2px;
+  cursor: pointer;
+}
+
+.carousel_card_btn h1 {
+  margin-right: 7.5px;
+}
