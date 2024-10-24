@@ -127,3 +127,42 @@ body {
 #mobile_download_btn {
   display: none;
 }
+
+#long_phone_section {
+  height: 200vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  background-color: black;
+  flex-direction: column;
+  /* border: 30px solid white; */
+  gap: 20px;
+}
+
+#long_phone_section video {
+  object-fit: cover;
+  object-position: top;
+  height: 60%;
+  width: 100%;
+  /* scale: 1.2; */
+  /* border: 10px solid red; */
+  padding: 0;
+  margin-top: 0px;
+}
+
+#content_div1 {
+  color: white;
+  font-family: denton_black;
+  text-align: center;
+  font-size: 110px;
+  line-height: 95%;
+}
+
+#content_div2 {
+  color: rgb(205, 205, 205);
+  font-family: gilroy_medium;
+  text-align: center;
+  font-size: 20px;
+  line-height: 120%;
+}
