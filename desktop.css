@@ -1,129 +1,129 @@
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-  }
-  
-  html,
-  body {
-    height: 100%;
-    width: 100%;
-    background-color: #000;
-    overflow-x: hidden;
-  }
-  
-  @font-face {
-    font-family: denton_black;
-    src: url(/Denton\ Test\ Bold\ 700.otf);
-  }
-  
-  @font-face {
-    font-family: gilroy_bold;
-    src: url(/Gilroy-Bold.ttf);
-  }
-  
-  @font-face {
-    font-family: gilroy_medium;
-    src: url(/Gilroy-Medium.ttf);
-  }
-  
-  #qr {
-    position: fixed;
-    bottom: 4%;
-    right: 7.5%;
-    height: 100px;
-    width: 250px;
-    border: 1px solid rgba(255, 255, 255, 0.58);
-    backdrop-filter: blur(5px);
-    background-color: rgba(0, 0, 0, 0.269);
-    border-radius: 2px;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    z-index: 1;
-  }
-  
-  #qr h1 {
-    font-family: gilroy_medium;
-    color: white;
-    font-size: 20px;
-    text-align: center;
-  }
-  
-  #hero_section {
-    height: 100%;
-    width: 100%;
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-  }
-  
-  #content_div {
-    /* border: 10px solid green; */
-    position: absolute;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    gap: 20px;
-    top: 25%;
-  }
-  
-  #vid_div video {
-    height: 100vh;
-    width: 100vw;
-    object-position: center;
-    object-fit: cover;
-    /* position: absolute; */
-  }
-  
-  #content_div #heading {
-    color: white;
-    font-size: 120px;
-    font-family: denton_black;
-    text-align: center;
-    line-height: 90%;
-  }
-  
-  #content_div #subheading {
-    color: #f7f3f0;
-    font-size: 20px;
-    font-family: gilroy_bold;
-    text-align: center;
-    line-height: 30px;
-  }
-  
-  #navbar {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    /* border: 1px solid red; */
-    position: absolute;
-    top: 5%;
-    width: 99%;
-    height: 12.5%;
-    gap: 50%;
-  }
-  
-  #navbarright {
-    border: 1px solid rgba(255, 255, 255, 0.653);
-    height: 100%;
-    width: calc(20%) px;
-    border-radius: 2px;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    padding-right: 40px;
-    flex-shrink: none;
-  }
-  
-  #menu_btn {
-    color: white;
-    font-size: 30px;
-  }
-  
-  #mobile_download_btn{
-    display: none;
-  }
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  background-color: #000;
+  overflow-x: hidden;
+}
+
+@font-face {
+  font-family: denton_black;
+  src: url(/Denton\ Test\ Bold\ 700.otf);
+}
+
+@font-face {
+  font-family: gilroy_bold;
+  src: url(/Gilroy-Bold.ttf);
+}
+
+@font-face {
+  font-family: gilroy_medium;
+  src: url(/Gilroy-Medium.ttf);
+}
+
+#qr {
+  position: fixed;
+  bottom: 4%;
+  right: 7.5%;
+  height: 100px;
+  width: 250px;
+  border: 1px solid rgba(255, 255, 255, 0.58);
+  backdrop-filter: blur(5px);
+  background-color: rgba(0, 0, 0, 0.269);
+  border-radius: 2px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  z-index: 1;
+}
+
+#qr h1 {
+  font-family: gilroy_medium;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+}
+
+#hero_section {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#content_div {
+  /* border: 10px solid green; */
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+  top: 25%;
+}
+
+#vid_div video {
+  height: 100vh;
+  width: 100vw;
+  object-position: center;
+  object-fit: cover;
+  /* position: absolute; */
+}
+
+#content_div #heading {
+  color: white;
+  font-size: 120px;
+  font-family: denton_black;
+  text-align: center;
+  line-height: 90%;
+}
+
+#content_div #subheading {
+  color: #f7f3f0;
+  font-size: 20px;
+  font-family: gilroy_bold;
+  text-align: center;
+  line-height: 30px;
+}
+
+#navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  /* border: 1px solid red; */
+  position: absolute;
+  top: 5%;
+  width: 99%;
+  height: 12.5%;
+  gap: 50%;
+}
+
+#navbarright {
+  border: 1px solid rgba(255, 255, 255, 0.653);
+  height: 100%;
+  width: calc(20%) px;
+  border-radius: 2px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-right: 40px;
+  flex-shrink: none;
+}
+
+#menu_btn {
+  color: white;
+  font-size: 30px;
+}
+
+#mobile_download_btn {
+  display: none;
+}
