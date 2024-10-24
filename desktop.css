@@ -468,3 +468,55 @@ body {
   font-family: gilroy_bold;
   font-size: 80px;
 }
+
+#download_section {
+  height: 100%;
+  width: 100%;
+  /* border: 10px solid red; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  border-top: 1px solid rgba(255, 255, 255, 0.205);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.205);
+}
+
+#light_img {
+  height: 100%;
+  width: 100%;
+  /* border: 3px solid green; */
+  overflow: hidden;
+}
+
+#light_img img {
+  object-position: bottom;
+  height: 250%;
+  /* border: 1px solid blue; */
+}
+
+#content_container_4 {
+  height: 100%;
+  width: 100%;
+  /* border: 1px solid blue; */
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  flex-direction: column;
+  gap: 5%;
+  margin-left: 5%;
+}
+
+#content_div12 {
+  color: white;
+  font-family: denton_black;
+  font-size: 100px;
+  line-height: 100%;
+}
+
+#content_div13 {
+  color: white;
+  font-family: gilroy_medium;
+  color: rgb(215, 215, 215);
+  font-size: 22.5px;
+  width: 80%;
+}
