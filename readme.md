@@ -15,14 +15,13 @@ This project is a clone of the CRED fintech application UI, created to demonstra
 ## Technologies Used
 - HTML5
 - CSS3
-- Flexbox/Grid for layout
 - Responsive design techniques
 
 ## Features
 - **Responsive Design**: The UI is fully responsive, ensuring a seamless experience across devices.
-- **Navigation Bar**: A functional navigation bar that mimics the CRED app’s style.
-- **Card Components**: Stylish card layouts for displaying financial information.
-- **Footer**: A footer that includes links and contact information, similar to the original app.
+- **Card Components**: Stylish card layouts for displaying different verticals.
+- **SEO semantics**: Usage of ```HTML5``` semantics to take into consideration the SEO practices.
+- **Videos**: A high usage of videos in the entire webs-design in backgorunds and multiple sections.
 
 ## Installation
 To view this project locally, follow these steps:
@@ -40,6 +39,13 @@ To view this project locally, follow these steps:
 ## Usage
 * Open the project in your browser to view the clone of the CRED application.
 * Explore the layout and features implemented using HTML and CSS.
+* Or you can directly have a look at [link](https://clonedcred.vercel.app/).
+
+## Screenshots
+![](/images/ssc1.png)
+![](/images/ssc2.png)
+![](/images/ssc3.png)
+![](/images/ssc4.png)
 
 ## Contact
 * For any inquiries or feedback, feel free to reach out:
